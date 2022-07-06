@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon website</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        h1{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">POKEMON</h1>
+    <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/375px-International_Pok%C3%A9mon_logo.svg.png" alt="pokemon logo">
+    <p>Pokémon[a][1][2][3] (an abbreviation for Pocket Monsters[b] in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996,[4] and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!".[5][6] There are currently 913 Pokémon species.</p>
+    <img src="https://m.media-amazon.com/images/M/MV5BNDcwZDc2NTEtMzU0Ni00YTQyLWIyYTQtNTI3YjM0MzhmMmI4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg" width="400" height="400">
+    <h3>Theme Song .....</h3>
+    <video
+        controls
+        loop
+        poster="https://pbs.twimg.com/media/EcQTwZxWsAI5thr.jpg:large"
+        height="300"
+        src="https://ia800409.us.archive.org/16/items/PokemonOriginalIntro/Pokemon%20Original%20Intro.mp4"
+    ></video>
+    <h3>Pikachu</h3>
+    <p>Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.</p>
+    <table style="width:50%">
+        <tr>
+            <th>Height</th>
+            <th>Category</th>
+            <th>Weight</th>
+            <th>Abilities</th>
+        </tr>
+        <tr>
+            <td>1'04''</td>
+            <td>Mouse</td>
+            <td>13.2 lbs</td>
+            <td>Static</td>
+        </tr>
+    </table>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wYwouruVy2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Bulbasaur</h3>
+    <p>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</p>
+    <table style="width:50%">
+        <tr>
+            <th>Height</th>
+            <th>Category</th>
+            <th>Weight</th>
+            <th>Abilities</th>
+        </tr>
+        <tr>
+            <td>2'04''</td>
+            <td>Seed</td>
+            <td>15.2 lbs</td>
+            <td>Overgrow</td>
+        </tr>
+    </table>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_wbNQ8rIxyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <h2>Form</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="checkbox" id="pokemon1" name="pokemon1" value="Pikachu">
+        <label for="pokemon1"> I love Pikachu</label><br>
+        <input type="checkbox" id="pokemon2" name="pokemon2" value="Bulbasaur">
+        <label for="pokemon2"> I love Bulbasaur</label><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
